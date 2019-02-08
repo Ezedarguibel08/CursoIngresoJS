@@ -3,8 +3,7 @@ y luego mostrarlo por 'alert' al presionar el botón  'mostrar'*/
 function mostrar()
 {
     var hola;
-    prompt("todo bien");
-    dato= prompt
-    alert(dato);
+    hola=prompt("Todo bien");
+    alert(hola);
 }
 

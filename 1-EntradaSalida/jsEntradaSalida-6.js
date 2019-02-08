@@ -11,7 +11,8 @@ function sumar()
     console.log(numeroDos)
     numero1=document.getElementById("numeroUno").value;
     numero2=document.getElementById("numeroDos").value;
-    hola=parseInt(numero1+numero2); 
-    alert("La suma es "+ hola);
+    hola=parseInt(numero1);
+    chau=parseInt(numero2);
+    alert("La suma es "+ [hola+chau]);
 }
 
