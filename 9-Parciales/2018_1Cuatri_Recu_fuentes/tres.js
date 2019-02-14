@@ -12,6 +12,6 @@ function mostrar()
     preciodedescuento=parseInt(preciodedescuento);
     precioiva=preciodedescuento+preciodedescuento*21/100;
     precioiva=parseInt(precioiva);
-    alert("Usted tiene un descuento de $"+[precio*pocentaje/100]+" Entonces su producto vale $"+[preciodedescuento]+" y un iva de "[precio*21/100]);
     document.getElementById("elPrecioFinal").value=precioiva;
+    alert("Usted tiene un descuento de $"+[precio*pocentaje/100]+" Entonces su producto vale $"+[preciodedescuento]+" y un iva de "[precio*21/100]);   
 }
