@@ -1,17 +1,20 @@
 function mostrar()
 {
     var precio;
-    var porcentaje;
-    var preciodescuento;
+    var preciodos;
+    var preciotres;
     var precioiva;
-    precio=prompt("Cuanto vale");
-    porcentaje=prompt("Cuanto descuento tiene");
+    var final;
+    precio=document.getElementById("elPrecioFinal").value;
     precio=parseInt(precio);
-    porcentaje=parseInt(porcentaje);
-    preciodedescuento=precio-precio*porcentaje/100;
-    preciodedescuento=parseInt(preciodedescuento);
-    precioiva=preciodedescuento+preciodedescuento*21/100;
+    precioiva=precio*21/100;
+    preciotres=precioiva+precio;
     precioiva=parseInt(precioiva);
-    document.getElementById("elPrecioFinal").value=precioiva;
-    alert("Usted tiene un descuento de $"+[precio*pocentaje/100]+" Entonces su producto vale $"+[preciodedescuento]+" y un iva de "[precio*21/100]);   
+    preciotres=parseInt(preciotres);
+    preciodos=preciotres*10/100;
+    final=preciodos+preciotres;
+    final=parseInt(final);
+    preciodos=parseInt(preciodos);
+    alert("Ellos deberan pagar $"+(final/3)+" cada uno");
+
 }
