@@ -1,16 +1,15 @@
 
 function mostrar()
 {
-    var base;
-    var altura;
-    var perimetro;
-    var superficie;
-    base=prompt("Base del triangulo");
-    altura=prompt("Altura del triangulo");
-    base=parseInt(base)
-    altura=parseInt(altura)
-    superficie=base*[altura/2];
-    perimetro=
-    alert("La superficie de su triangulo es "+superficie+" y su perimetro "+);
-    
+    var mascota;
+    var mascotados;
+    var peso;
+    var pesodos;
+    mascota=prompt("como se llama tu primer mascota");
+    mascotados=prompt("como se llama tu otra mascota");
+    peso=prompt("cuanto pesa tu primer mascota");
+    pesodos=prompt("cuanto pesa tu segunda mascota");
+    peso=parseInt(peso);
+    pesodos=parseInt(pesodos);
+    alert("tenes una mascota que se llama "+ mascota+" y otra "+ mascotados+"que pesan "+ mascota " y "+mascotados+ " sumados pesan"+(peso+pesodos));
 }

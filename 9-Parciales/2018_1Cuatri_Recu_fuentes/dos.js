@@ -1,8 +1,12 @@
 function mostrar()
 {
-    var nombre;
-    var localidad;
-    nombre=document.getElementById("elNombre").value;
-    localidad=document.getElementById("laLocalidad").value;
-    alert("Usted se llama "+nombre+" y vive en "+localidad)
+	var precio;
+	var precioDescuento;
+	var precioFinal;
+	precio=document.getelementbyID("elNombre").value;
+	precio=parseInt(precio);
+	precioDescuento=precio*10/100;
+	precioDescuento=parseInt(precioDescuento);
+	precioFinal=(precio-precioDescuento)*21/100;
+	alert("Tu compra es de $"+precio+" tenes un descuento del 10% "+"queda en "+precioDescuento+" mas el iva"+precioFinal);   
 }
